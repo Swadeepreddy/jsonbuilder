@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { JsonUiComponent } from './json-ui/json-ui.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    JsonUiComponent
   ],
   imports: [
     BrowserModule
